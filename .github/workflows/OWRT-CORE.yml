@@ -123,9 +123,9 @@ jobs:
           cd ./owrt
           
           rm -rf ./tmp* ./.config*
-          cp "$GITHUB_WORKSPACE/Config/RAX3000m.txt" "./"
+          cp "$GITHUB_WORKSPACE/Config/RAX3000m-cmcc.txt" "./"
           ls
-          mv RAX3000m.txt .config
+          mv RAX3000m-cmcc.txt .config
 
           $GITHUB_WORKSPACE/Scripts/Extras.sh
 
