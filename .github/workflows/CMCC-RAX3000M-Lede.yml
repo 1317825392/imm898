@@ -1,5 +1,5 @@
 #CI项目名
-name: CMCC-RAX3000M-cmcc
+name: CMCC-RAX3000M-Lede
 
 on:
   #自动编译：每天早上4点
@@ -18,11 +18,11 @@ jobs:
     uses: ./.github/workflows/OWRT-CORE.yml
     with:
       #编译，RAX3000M通用配置
-      OWRT_TARGET: RAX3000m-cmcc
+      OWRT_TARGET: RAX3000m
       #默认主题
       OWRT_THEME: bootstrap
       #默认主机名
-      OWRT_NAME: CMCC-RAX3000m-cmcc
+      OWRT_NAME: CMCC-RAX3000m
       #默认密码，仅作展示，更改无效
       OWRT_PW: password
       #默认地址
